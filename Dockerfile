@@ -11,7 +11,8 @@ RUN apt-get update -qqy \
     apt-utils \
     wget \
     sudo \
-    curl
+    curl \
+    git
 
 # Font libraries
 RUN apt-get update -qqy \
